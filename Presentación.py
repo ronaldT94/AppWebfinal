@@ -2,6 +2,7 @@ import base64
 import streamlit as st
 import plotly.express as px
 from PIL import Image
+import webbrowser
 
 st.set_page_config(
     page_title="SISTEMA RECOMENDADOR / MACHINE LEARNING",

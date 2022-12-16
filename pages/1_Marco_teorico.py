@@ -22,7 +22,7 @@ page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
 background-image: url("https://wallpapercave.com/wp/wp6310497.jpg");
-background-size: 220%;
+background-size: 250%;
 background-position: top left;
 background-repeat: no-repeat;
 background-attachment: local;

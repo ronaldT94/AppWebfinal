@@ -59,16 +59,21 @@ c1,c2 = st.columns([6,4])
 c1.markdown("### Encuesta:")
 c1.markdown("#####  ")
 c1.markdown("  ")
-url1 = 'https://docs.google.com/forms/d/e/1FAIpQLScrTq52BZIDb6iucszcxJHPw18I45Qvs8_TU_4KCvlPoUbrSg/viewform?usp=sf_link'
-if c1.button('Ver encuesta'):
-    webbrowser.open(url1)
+url1 = 'https://forms.gle/vo4oxaXZEvHWZvjm7'
+c1.markdown(f'''
+<a href={url1}><button style="background-color:#1D1919;"><p style="color:white;">Ver Encuesta</p></button></a>
+''',
+unsafe_allow_html=True)
+
 img1 = Image.open('imagenes/c1.png')
 c1.image(img1, width=380)
 
 c2.markdown("### Preprocesamiento CSV:")
-url2 = 'https://docs.google.com/spreadsheets/d/1rYuWKku-Aiv8tr3y8miDlHp4Cac4bvUfDmyMmZ2E1SE/edit?usp=sharing'
-if c2.button('Ver preprocesamiento'):
-    webbrowser.open_new_tab(url2)
+url2 = 'https://acortar.link/ZT3FF6'
+c2.markdown(f'''
+<a href={url2}><button style="background-color:#1D1919;"><p style="color:white;">Ver Preprocesamiento</p></button></a>
+''',
+unsafe_allow_html=True)
 img2 = Image.open('imagenes/preprocsv.png')
 c2.image(img2, width=380)
 

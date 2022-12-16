@@ -61,7 +61,7 @@ c1.markdown("#####  ")
 c1.markdown("  ")
 url1 = 'https://docs.google.com/forms/d/e/1FAIpQLScrTq52BZIDb6iucszcxJHPw18I45Qvs8_TU_4KCvlPoUbrSg/viewform?usp=sf_link'
 if c1.button('Ver encuesta'):
-    webbrowser.open_new_tab(url1)
+    webbrowser.open(url1)
 img1 = Image.open('imagenes/c1.png')
 c1.image(img1, width=380)
 
